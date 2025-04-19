@@ -58,14 +58,4 @@ As seguintes alterações foram aplicadas ao Arquivo 1:
 - Incrementada a versão para v1.0.1 na tabela de controle de versão, com data 20/04/2025.
 O arquivo inclui todo o conteúdo, inclusive seções inalteradas. Por favor, confirme se as alterações estão corretas ou indique mais revisões.
 
-**Artefato Revisado**:
-<xaiArtifact artifact_id="21c0119f-54ea-4f1a-b0eb-a9d56b221cbd" artifact_version_id="9d89aca5-9799-44f9-8fe0-274aa3260f61" title="Automação Cervejaria - Especificações e Configurações" contentType="text/markdown">
-Nome de arquivo sugerido: Automacao_Cervejaria_Especificacoes_v1.0.1_20250420.md -->
-Metadados -->
-artifact_id: 21c0119f-54ea-4f1a-b0eb-a9d56b221cbd -->
-Versão: v1.0.1 -->
-Data: 20/04/2025 -->
-[Conteúdo completo do arquivo, com BOM atualizada, controle de versão v1.0.1, e seções inalteradas]
-
-
 
