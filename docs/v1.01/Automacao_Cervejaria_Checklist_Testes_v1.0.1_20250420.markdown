@@ -33,11 +33,11 @@
 
 | Teste | Objetivo | Setup | Detalhes | Status | Peso | % do Total |
 | --- | --- | --- | --- | --- | --- | --- |
-| T0.1.1 | Verificar energização do Arduino R4 Connect | Fonte 5V USB, LED onboard | Conectar USB-C de fonte 5V para USB-C de Arduino R4 Connect. Ligar e verificar LED onboard. | ✈️ | 1 | 0,8 |
-| T0.1.2 | Testar I/O digital do Arduino R4 Connect | LED externo, resistor 220 Ω | Conectar LED: Anodo para D4 de Arduino R4 Connect, Cátodo para GND de Arduino R4 Connect via resistor 220 Ω. | ✈️ | 3 | 2,5 |
+| T0.1.1 | Verificar energização do Arduino R4 Connect | Fonte 5V USB, LED onboard | Conectar USB-C de fonte 5V para USB-C de Arduino R4 Connect. Ligar e verificar LED onboard. | ✅ | 1 | 0,8 |
+| T0.1.2 | Testar I/O digital do Arduino R4 Connect | LED externo, resistor 220 Ω | Conectar LED: Anodo para D4 de Arduino R4 Connect, Cátodo para GND de Arduino R4 Connect via resistor 220 Ω. | ✅ | 3 | 2,5 |
 | T0.1.3 | Testar I2C do Arduino R4 Connect | INA219, pull-ups 4,7 kΩ | Conectar INA219: SDA de INA219 para A5 de Arduino R4 Connect, SCL de INA219 para A4 de Arduino R4 Connect, VCC de INA219 para 3V3 de Arduino R4 Connect, GND de INA219 para GND de Arduino R4 Connect, pull-ups 4,7 kΩ entre SDA/SCL e 3V3. | ✈️ | 3 | 2,5 |
 | T0.1.4 | Testar Wi-Fi do Arduino R4 Connect | Roteador Wi-Fi, sketch de teste | Carregar sketch Wi-Fi. Conectar a rede Wi-Fi via SSID e senha. Verificar conexão estável. | ✈️ | 4 | 3,3 |
-| T0.2 | Confirmar leitura de temperatura do DS18B20 | DS18B20, resistor 4,7 kΩ | Conectar DS18B20: DQ de DS18B20 para D2 de Arduino R4 Connect, VCC de DS18B20 para 3V3 de Arduino R4 Connect, GND de DS18B20 para GND de Arduino R4 Connect, resistor 4,7 kΩ entre DQ e VCC. | ✈️ | 1 | 0,8 |
+| T0.2 | Confirmar leitura de temperatura do DS18B20 | DS18B20, resistor 4,7 kΩ | Conectar DS18B20: DQ de DS18B20 para D2 de Arduino R4 Connect, VCC de DS18B20 para 3V3 de Arduino R4 Connect, GND de DS18B20 para GND de Arduino R4 Connect, resistor 4,7 kΩ entre DQ e VCC. | ✅ | 1 | 0,8 |
 | T0.3 | Verificar controle de saída do SSR-10DA | SSR-10DA, carga resistiva (ex.: lâmpada 40W) | Conectar SSR-10DA: Controle+ de SSR-10DA para D3 de Arduino R4 Connect, Controle- de SSR-10DA para GND de Arduino R4 Connect, carga em série com SSR-10DA. | ✈️ | 3 | 2,5 |
 | T0.4 | Verificar leitura de corrente/tensão do INA219 | INA219, carga resistiva, resistor 10 Ω | Conectar INA219: SDA de INA219 para A5 de Arduino R4 Connect, SCL de INA219 para A4 de Arduino R4 Connect, VCC de INA219 para 3V3 de Arduino R4 Connect, GND de INA219 para GND de Arduino R4 Connect, resistor 10 Ω entre VIN+ e VIN- de INA219. | ✈️ | 2 | 1,7 |
 | T1.1 | Verificar precisão do DS18B20 (±0,5°C) | DS18B20, termômetro de referência | Comparar leitura do DS18B20 (via D2) com termômetro calibrado em água (0-50°C). Erro ≤ ±0,5°C. | ✈️ | 3 | 2,5 |
