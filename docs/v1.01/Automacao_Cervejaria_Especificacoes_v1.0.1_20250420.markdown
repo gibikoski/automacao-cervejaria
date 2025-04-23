@@ -157,11 +157,11 @@
 
 | **Componente** | **Quantidade** | **Preço Unitário (€)** | **Preço Total (€)** | **Status** |
 | --- | --- | --- | --- | --- |
-| **Arduino R4 Connect** | 1 | 12,20 | 12,20 | Em transporte ✈️ |
-| **DS18B20** | 1 | 1,80 | 1,80 | Em transporte ✈️ |
-| **SSR-10DA** | 1 | 3,60 | 3,60 | Em transporte ✈️ |
+| **Arduino R4 Connect** | 1 | 12,20 | 12,20 | Recebido ✅ |
+| **DS18B20** | 1 | 1,80 | 1,80 | ERecebido ✅ |
+| **SSR-10DA** | 1 | 3,60 | 3,60 | Recebido ✅ |
 | **Manta 500W** | 1 | 10,00-20,00 | 10,00-20,00 | Em planejamento 📋 |
-| **Fusível 3 A** | 1 | 0,50 | 0,50 | Em transporte ✈️ |
+| **Fusível 3 A** | 1 | 0,50 | 0,50 | Recebido ✅ |
 | **Bateria 18650** | 1 | 7,83 | 7,83 | Em planejamento 📋 |
 | **INA219** | 1 | 1,00 | 1,00 | Em transporte ✈️ |
 
@@ -201,16 +201,45 @@
 | --- | --- | --- | --- | --- |
 | **Capacitores (0,1 µF, 1 µF, 10 µF)** | Vários | \- | 2,49 | Em transporte ✈️ |
 | **Protetor silicone p/ bancada** | 1 | 5,00 | 5,00 | Em planejamento 📋 |
-| **Protoboard (400 pins)** | 1 | 6,40 | 6,40 | Em transporte ✈️ |
-| **Resistores (300 peças)** | 1 | 2,00-3,00 | 2,00-3,00 | Em transporte ✈️ |
+| **Protoboard (400 pins)** | 1 | 6,40 | 6,40 | Recebido ✅ |
+| **Resistores (300 peças)** | 1 | 2,00-3,00 | 2,00-3,00 | Recebido ✅ |
 | **Caixa universal (R4 Connect)** | 1 | 2,00-3,00 | 2,00-3,00 | Em transporte ✈️ |
-| **ANENG SL105 Electric Soldering Iron Pro** | 1 | 6,30 | 6,30 | Em planejamento 📋 |
-| **ANENG SZ01 Diode Tester Pro** | 1 | 11,50 | 11,50 | Em planejamento 📋 |
-| **Soldering Third Helping Hand 3X Magnifier** | 1 | 10,00 | 10,00 | Em planejamento 📋 |
+| **ANENG SL105 Electric Soldering Iron Pro** | 1 | 6,30 | 6,30 | Em transporte ✈️ |
+| **ANENG SZ01 Diode Tester Pro** | 1 | 11,50 | 11,50 | Em transporte ✈️ |
+| **Soldering Third Helping Hand 3X Magnifier** | 1 | 10,00 | 10,00 | Em transporte ✈️ |
 
 **Total Estimado**: *€118,72-129,72* (com VAT, atualizado)
 
-**Itens em Transporte** (\~3SALX000015911263, entrega até *30/04/2025*):
+
+**Itens em Transporte ✈️** 
+
+
+\~LR372864684NL, entrega até *29/04/2025*:
+
+- Capacitores (0,1 µF, 1 µF, 10 µF): https://www.aliexpress.com/item/1005006094233087.html
+- HX711 + 1x Célula de carga: https://www.aliexpress.com/p/order/index.html
+- TPS63020: https://www.aliexpress.com/item/1005007967030664.html
+- MPU6050: https://www.aliexpress.com/item/1005007292626670.html
+- INA219 (3 unidades): https://www.aliexpress.com/item/1005007925648957.html
+- ESP32-C3 (3 unidades): https://www.aliexpress.com/item/1005006599545782.html
+- ESP8266: https://www.aliexpress.com/item/1005006975297862.html
+- ANENG SL105: https://www.aliexpress.com/item/1005007715470723.html
+- ANENG SZ01: https://www.aliexpress.com/item/1005007473883692.html
+- Soldering Third Helping Hand: https://www.aliexpress.com/item/1005006126258947.html
+
+
+\~LR372822260NL, entrega até *03/05/2025*:
+
+- ICM20948: https://www.aliexpress.com/item/1005005499263696.html
+  
+
+\~HRBC1007643032, entrega até *27/06/2025*:
+
+- Bateria 18650 (2 unidades): https://www.aliexpress.com/item/1005007503438389.html
+
+  
+**Itens Recebidos ✅** (last update 23/04/2025*:
+
 
 - Resistores (300 peças): https://www.aliexpress.com/item/1005007714306585.html
 - Arduino R4 Connect (Wi-Fi): https://www.aliexpress.com/item/1005007130001901.html
@@ -219,15 +248,6 @@
 - Fusível 3 A: https://www.aliexpress.com/item/1005007552282115.html
 - DS18B20 (1 m com módulo): https://www.aliexpress.com/item/1005001601986600.html
 - SSR-10DA (DC controla AC): https://www.aliexpress.com/item/1005005837105164.html
-- ICM20948: https://www.aliexpress.com/item/1005005499263696.html
-- Capacitores (0,1 µF, 1 µF, 10 µF): https://www.aliexpress.com/item/1005006094233087.html
-- HX711 + 1x Célula de carga: https://www.aliexpress.com/p/order/index.html
-- TPS63020: https://www.aliexpress.com/item/1005007967030664.html
-- Bateria 18650 (2 unidades): https://www.aliexpress.com/item/1005007503438389.html
-- MPU6050: https://www.aliexpress.com/item/1005007292626670.html
-- INA219 (3 unidades): https://www.aliexpress.com/item/1005007925648957.html
-- ESP32-C3 (3 unidades): https://www.aliexpress.com/item/1005006599545782.html
-- ESP8266: https://www.aliexpress.com/item/1005006975297862.html
 
 *Referências Cruzadas*: Para pendências de compra, consulte *Anotações, Pendências e Melhorias*.
 
