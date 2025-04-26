@@ -1,0 +1,9 @@
+Incluir na prox revisao:
+adiçao nova funçao - Mediçao de volume panela, usando sensor RCWL-1670.
+em funçao da adiçao da nova funçao: pedir analise de impacto nos documentos existentes - definindo especificacoes, requisitos, BOM, testes, rastreabilidade, codigos etc para nova funçao e atualizando nos documentos já existentes.
+atualizar itens/BOM: 
+- adicionar novos itens adquiridos para oficina (além da nova funçao)
+- status dos itens recibdos e em transporte
+atualizar testes: 
+- status, realizados até o momento
+- documentaçao dos testes de cada funçao, principalmente .ino, para refletir a versao mais atualizada e funcional do codigo, alinhada ao projeto.
