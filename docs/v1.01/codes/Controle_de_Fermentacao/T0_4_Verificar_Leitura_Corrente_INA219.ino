@@ -11,33 +11,34 @@
 #include <Wire.h>
 #include <Adafruit_INA219.h>
 
-Adafruit_INA219 ina219; // Inicializa o sensor INA219
+Adafruit_INA219 ina219;
 
 void setup() {
-  Serial.begin(9600); // Inicia comunicação serial a 9600 baud
-  while (!Serial) {
-    ; // Aguarda a conexão do Serial Monitor
-  }
-  Serial.println("Teste T0.4 - Leitura Corrente INA219 Iniciado");
+  Serial.begin(115200);
+  Serial.println("Iniciando o teste do INA219...");
 
-  // Inicializa o sensor INA219
   if (!ina219.begin()) {
-    Serial.println("Erro: Falha ao inicializar o INA219!");
-    while (1); // Para a execução em caso de erro
+    Serial.println("Falha ao encontrar o sensor INA219!");
+    while (1);
   }
-  Serial.println("Sensor INA219 inicializado com sucesso.");
+  Serial.println("INA219 encontrado!");
 }
 
 void loop() {
-  float current_mA = ina219.getCurrent_mA(); // Lê a corrente em mA
-  float voltage_V = ina219.getBusVoltage_V(); // Lê a tensão no barramento em V
+  float busvoltage = ina219.getBusVoltage_V();
+  float shuntvoltage = ina219.getShuntVoltage_mV() / 1000;
+  float current_mA = ina219.getCurrent_mA();
 
+  Serial.print("Tensão do barramento: ");
+  Serial.print(busvoltage);
+  Serial.println(" V");
+  Serial.print("Tensão de shunt: ");
+  Serial.print(shuntvoltage);
+  Serial.println(" V");
   Serial.print("Corrente: ");
   Serial.print(current_mA);
   Serial.println(" mA");
-  Serial.print("Tensão: ");
-  Serial.print(voltage_V);
-  Serial.println(" V");
+  Serial.println();
 
-  delay(2000); // Aguarda 2 segundos antes da próxima leitura
+  delay(1000); // Lê os dados a cada 1 segundo
 }
